@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T13:59:56 IST" name="Default suite" finished-at="2022-09-20T14:02:49 IST" duration-ms="172522">
+    <groups>
+    </groups>
+    <test started-at="2022-09-20T13:59:56 IST" name="Default test" finished-at="2022-09-20T14:02:49 IST" duration-ms="172522">
+      <class name="DataProvider.DataProviderRealEX">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T13:59:56 IST" name="launchbrowser" finished-at="2022-09-20T14:00:14 IST" duration-ms="17948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:00:14 IST" name="login" data-provider="TestData" finished-at="2022-09-20T14:00:27 IST" duration-ms="13421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijeetghutukade1437@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a9011843963s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:00:27 IST" name="close" finished-at="2022-09-20T14:00:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:00:27 IST" name="launchbrowser" finished-at="2022-09-20T14:01:00 IST" duration-ms="32729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:01:00 IST" name="login" data-provider="TestData" finished-at="2022-09-20T14:01:17 IST" duration-ms="17231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijeet1437@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a9011843963s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:01:17 IST" name="close" finished-at="2022-09-20T14:01:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:01:17 IST" name="launchbrowser" finished-at="2022-09-20T14:01:54 IST" duration-ms="36195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:01:54 IST" name="login" data-provider="TestData" finished-at="2022-09-20T14:02:08 IST" duration-ms="14619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijeetghutukade1437@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a943963s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:02:08 IST" name="close" finished-at="2022-09-20T14:02:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:02:08 IST" name="launchbrowser" finished-at="2022-09-20T14:02:33 IST" duration-ms="24507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:02:33 IST" name="login" data-provider="TestData" finished-at="2022-09-20T14:02:49 IST" duration-ms="15803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhijeet37@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a9011843s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DataProvider.DataProviderRealEX@34f5090e]" started-at="2022-09-20T14:02:49 IST" name="close" finished-at="2022-09-20T14:02:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DataProvider.DataProviderRealEX -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
