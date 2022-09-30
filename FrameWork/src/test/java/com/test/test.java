@@ -36,7 +36,7 @@ public class test extends Base {
 		if(Browser.equals("Chrome")) {
 			driver = Base.OpenChromeBrowser();
 		}
-		else if(Browser.equals("Edgebrowser")) {
+		else if(Browser.equals("Edge")) {
 			driver = Base.OpenEdgeBrowser();
 		}
 		else if(Browser.equals("Firefox")) {

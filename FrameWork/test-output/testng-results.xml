@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="12" passed="6" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T09:47:23 IST" name="Suite" finished-at="2022-09-29T09:47:31 IST" duration-ms="7777">
+  <suite started-at="2022-09-30T11:00:38 IST" name="Suite" finished-at="2022-09-30T11:02:19 IST" duration-ms="101371">
     <groups>
     </groups>
-    <test started-at="2022-09-29T09:47:23 IST" name="EdgebrowserTest" finished-at="2022-09-29T09:47:31 IST" duration-ms="7777">
+    <test started-at="2022-09-30T11:00:38 IST" name="EdgeTest" finished-at="2022-09-30T11:00:48 IST" duration-ms="10035">
       <class name="com.test.test">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:23 IST" name="launchBrowser" finished-at="2022-09-29T09:47:30 IST" duration-ms="7575" status="FAIL">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:38 IST" name="launchBrowser" finished-at="2022-09-30T11:00:47 IST" duration-ms="9733" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edgebrowser]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
           </params>
@@ -54,33 +54,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="HitURL()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="HitURL" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051064" status="SKIP">
+        <test-method is-config="true" signature="HitURL()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="HitURL" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847919" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HitURL -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051075" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847941" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyBackpack()[pri:1, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyBackpack" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyBackpack()[pri:1, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyBackpack" finished-at="2022-09-30T11:00:47 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -120,33 +115,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBackpack -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051086" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847951" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051091" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847957" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyBikelight()[pri:2, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyBikelight" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyBikelight()[pri:2, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyBikelight" finished-at="2022-09-30T11:00:47 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -186,33 +176,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBikelight -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051100" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847967" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051103" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847972" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyTshirt()[pri:3, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyTshirt" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyTshirt()[pri:3, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyTshirt" finished-at="2022-09-30T11:00:47 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -252,33 +237,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTshirt -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051114" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847981" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051117" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515847991" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyJacket()[pri:4, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyJacket" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyJacket()[pri:4, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:47 IST" name="verifyJacket" finished-at="2022-09-30T11:00:47 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -318,33 +298,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJacket -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051126" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848004" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051131" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848009" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyOnesie()[pri:5, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyOnesie" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyOnesie()[pri:5, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="verifyOnesie" finished-at="2022-09-30T11:00:48 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -384,33 +359,28 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOnesie -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051140" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848031" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051142" status="SKIP">
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="verifyLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848040" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="verifyRedTshirt()[pri:6, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="verifyRedTshirt" finished-at="2022-09-29T09:47:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyRedTshirt()[pri:6, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="verifyRedTshirt" finished-at="2022-09-30T11:00:48 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
@@ -450,33 +420,165 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRedTshirt -->
-        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051147" status="SKIP">
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="Logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848057" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.test.test@31fa1761]" started-at="2022-09-29T09:47:31 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664425051152" status="SKIP">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.test.test@4a883b15]" started-at="2022-09-30T11:00:48 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664515848073" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.test.test -->
-    </test> <!-- EdgebrowserTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-09-30T11:00:38 IST" name="ChromeTest" finished-at="2022-09-30T11:02:19 IST" duration-ms="101371">
+      <class name="com.test.test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:00:38 IST" name="launchBrowser" finished-at="2022-09-30T11:00:49 IST" duration-ms="11537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="HitURL()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:00:49 IST" name="HitURL" finished-at="2022-09-30T11:00:50 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HitURL -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:00:50 IST" name="verifyLoginPage" finished-at="2022-09-30T11:01:03 IST" duration-ms="13018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyBackpack()[pri:1, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:03 IST" name="verifyBackpack" finished-at="2022-09-30T11:01:06 IST" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackpack -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:06 IST" name="Logout" finished-at="2022-09-30T11:01:11 IST" duration-ms="5158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackpack status=SUCCESS method=test.verifyBackpack()[pri:1, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:11 IST" name="verifyLoginPage" finished-at="2022-09-30T11:01:17 IST" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyBikelight()[pri:2, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:17 IST" name="verifyBikelight" finished-at="2022-09-30T11:01:20 IST" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBikelight -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:20 IST" name="Logout" finished-at="2022-09-30T11:01:25 IST" duration-ms="5124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBikelight status=SUCCESS method=test.verifyBikelight()[pri:2, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:25 IST" name="verifyLoginPage" finished-at="2022-09-30T11:01:31 IST" duration-ms="6310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyTshirt()[pri:3, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:31 IST" name="verifyTshirt" finished-at="2022-09-30T11:01:33 IST" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTshirt -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:33 IST" name="Logout" finished-at="2022-09-30T11:01:38 IST" duration-ms="5114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTshirt status=SUCCESS method=test.verifyTshirt()[pri:3, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:38 IST" name="verifyLoginPage" finished-at="2022-09-30T11:01:45 IST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyJacket()[pri:4, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:45 IST" name="verifyJacket" finished-at="2022-09-30T11:01:47 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJacket -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:47 IST" name="Logout" finished-at="2022-09-30T11:01:52 IST" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyJacket status=SUCCESS method=test.verifyJacket()[pri:4, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:52 IST" name="verifyLoginPage" finished-at="2022-09-30T11:01:58 IST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyOnesie()[pri:5, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:01:58 IST" name="verifyOnesie" finished-at="2022-09-30T11:02:00 IST" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnesie -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:02:00 IST" name="Logout" finished-at="2022-09-30T11:02:05 IST" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOnesie status=SUCCESS method=test.verifyOnesie()[pri:5, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="verifyLoginPage()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:02:05 IST" name="verifyLoginPage" finished-at="2022-09-30T11:02:12 IST" duration-ms="6306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyRedTshirt()[pri:6, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:02:12 IST" name="verifyRedTshirt" finished-at="2022-09-30T11:02:14 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRedTshirt -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:02:14 IST" name="Logout" finished-at="2022-09-30T11:02:19 IST" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRedTshirt status=SUCCESS method=test.verifyRedTshirt()[pri:6, instance:com.test.test@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.test.test@1de5f259]" started-at="2022-09-30T11:02:19 IST" name="CloseBrowser" finished-at="2022-09-30T11:02:19 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.test.test -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
