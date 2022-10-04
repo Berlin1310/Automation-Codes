@@ -20,8 +20,12 @@ public class ReverseNum {
 			temp = temp/10;
 		}
 		
-		System.out.println("The reverse of number "+no+" is "+rev);
-		
+		if(no==rev) {
+			System.out.println("The number is Palindrome");
+		}
+		else {
+			System.out.println("The number is not Palindrome");
+		}
 	}
 
 }

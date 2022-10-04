@@ -19,7 +19,7 @@ public class PalindromeString {
 			
 			rev = rev + s.charAt(i);
 		}
-		if(s==rev) {
+		if(s.equals(rev)) {
 			System.out.println("The String "+s+" is Palindrome");
 		}else {
 			System.out.println("The String "+s+" is not Palindrome");
