@@ -11,16 +11,16 @@ public class ReverseString {
 		String name = sc.next();
 		
 		int leng = name.length();
-		System.out.println("The length of String "+name+" is "+leng);
+		System.out.println("The length of String "+name+" is: "+leng);
 		
-		String rev = "";
+		String rev="";
 		
 		for(int i=leng-1;i>=0;i--) {
 			
 			rev = rev+name.charAt(i);
 		}
 		
-		System.out.println("The Reverse of String "+name+" is "+rev);
+		System.out.println("The Reverse of String is: "+rev);
 	}
 
 }
